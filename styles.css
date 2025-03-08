@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #ff66b2, #aa00ff);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #ff3399, #c7e662);
+    padding: 15px 30px;
+    font-weight: bold;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+.navbar ul li {
+    margin: 0 15px;
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.navbar ul li a:hover {
+    color: #ffdd57;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, #ff0066, #fbfafc);
+    color: white;
+    border-radius: 50px 50px 50px 50px;
+    margin-top: 50px;
+}
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-family:cursive;
+}
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: white;
+    color: #8800cc;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #ffdd57;
+    color: black;
+}
+
+/* Emergency Section */
+.emergency {
+    background: linear-gradient(to right, #ff3399, #8800cc);
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.safety-tips {
+    text-align: center;
+    padding: 20px;
+    background:linear-gradient(to right, #8bcce0, #d4dc9b);
+    margin: 30px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    color: #333;
+}
+
+.safety-tips h2 {
+    color: #6a0572;
+    font-size: 24px;
+}
+
+details summary {
+    cursor: pointer;
+    font-weight: bold;
+    color: #ff0066;
+    padding: 10px;
+    border: 2px solid #ff0066;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+details summary:hover {
+    background: #ff0066;
+    color: white;
+}
+
+details ul {
+    list-style: none;
+    padding: 10px;
+}
+
+details ul li {
+    padding: 8px 0;
+    font-size: 16px;
+}
