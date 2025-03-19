@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #be1717, #e0d909);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Game Container */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Title */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Question */
+#question {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+    color: #444;
+}
+
+/* Input Box */
+input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    background: #ff6f61;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff3b30;
+}
+
+/* Next Question Button */
+.next-btn {
+    background: #4caf50;
+}
+
+.next-btn:hover {
+    background: #388e3c;
+}
+
+/* Result Message */
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
